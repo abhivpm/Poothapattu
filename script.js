@@ -8,7 +8,7 @@ let currentBatch = 1;
 const batchSize = Math.ceil(frameCount / framesPerBatch);
 
 const currentFrame = index => (
-  `sequence/image_sequence_${index.toString().padStart(4, '0')}.jpg`
+  `Sequence Webp/image_sequence_${index.toString().padStart(4, '0')}.jpg`
 );
 
 const preloadImages = (start, end) => {
